@@ -1,8 +1,27 @@
 package com.emlakjet.devsharing;
 
 public class Emlakjet {
-    public String name = "Emlakjet";
-    public String slogan = "Sen o evi hayal et, gerisi Emlakjet!";
-    public int established = 2006;
-    public String address = "Kozyatağı, İstanbul";
+    private String name = "Emlakjet";
+
+    private String slogan = "Sen o evi hayal et, gerisi Emlakjet!";
+
+    private int established = 2006;
+
+    private String address = "Kozyatağı, İstanbul";
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSlogan() {
+        return slogan;
+    }
+
+    public int getEstablished() {
+        return established;
+    }
+
+    public String getAddress() {
+        return address;
+    }
 }
