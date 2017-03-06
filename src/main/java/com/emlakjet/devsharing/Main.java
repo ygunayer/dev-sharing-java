@@ -10,11 +10,7 @@ public class Main {
         RealtyMarketplace[] marketplaces = new RealtyMarketplace[] { new Emlakjet(), new Sahibinden(), new Zingat() };
 
         for (RealtyMarketplace market : marketplaces) {
-            printMarketplace(market);
+            System.out.println(market);
         }
-    }
-
-    public static void printMarketplace(RealtyMarketplace market) {
-        System.out.println(market.getSlogan() + " - " + market.getName() + " (est. " + market.getEstablished() + ")");
     }
 }

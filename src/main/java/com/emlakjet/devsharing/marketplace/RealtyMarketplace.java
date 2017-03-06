@@ -31,4 +31,9 @@ public abstract class RealtyMarketplace {
     public String getAddress() {
         return this.address;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s - %s (est. %d)", getSlogan(), getName(), getEstablished());
+    }
 }
